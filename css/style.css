@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    width: 30%;
+    display: inline-block;
+}
+
+nav ul {
+    width: 60%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 30px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li :hover {
+    border-bottom: 2px solid #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#hero img {
+    transition: .4s;
+}
+
+#hero img:hover {
+    transform: scale(1.2) rotate(-360deg);
+}
+
+#hero h2 {
+    font-size: 60px;
+    color: #e8f00e;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+#hero p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#hero button {
+    background: #e8f00e;
+    padding: 15px 40px;
+    font-size: 30px;
+    color: #999999;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin-top: 70px;
+    transition: .4s;
+}
+
+#hero button:hover {
+    transform: scale(.8);
+    background: black;
+    color: whitesmoke;
+}
+
+#planes {
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#planes .container h2 {
+    font-size: 45px;
+}
+
+#planes .container p {
+    font-size: 20px;
+}
+
+#planes .container .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#planes .container .row .item-planes {
+    position: relative;
+}
+
+#planes .container .row .item-planes h2 {
+    color: #e8f00e;
+    font-size: 26px;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    right: 0;
+}
+
+#planes .row .item-planes img {
+    transition: .4s;
+}
+
+#planes .row .item-planes:hover img {
+    border-radius: 50%;
+}
+
+#destinos {
+    width: 100%;
+    position: relative;
+    background: url(../img/bg-destinos.png);
+    padding: 110px 0 40px;
+    text-align: center;
+}
+
+#destinos .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#destinos .container h2 {
+    color: #e8f00e;
+    font-size: 50px;
+}
+
+#destinos .container .row .item-destinos h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#destinos .contaner .row .item-destinos img {
+    transition: .4s;
+}
+
+#destinos .container .row .item-destinos:hover img {
+    transform: rotate(-360deg) scale();
+}
+
+
+/* INICIO ESTILOS CONTACTO */
+
+#contacto {
+    background: #e8f00e;
+    padding: 100px;
+    padding-bottom: 120px;
+    text-align: center;
+    position: relative;
+}
+
+#contacto h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#contacto p {
+    font-size: 24px;
+}
+
+#contacto .container .row .campo-f {
+    width: 300px;
+    padding: 12px 14px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px solid #999999;
+}
+
+#contacto .container .row select {
+    width: 332px !important;
+    color: #757575;
+}
+
+#contacto .container form button {
+    background: #898d0e;
+    color: #ffffff;
+    padding: 12px 60px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0 80px;
+    font-size: 20px;
+}
